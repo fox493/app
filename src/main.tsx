@@ -57,7 +57,7 @@ if (mobile) {
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
           <Footer />
-          <Geoblock />
+          {/* <Geoblock /> */}
         </div>
       </BrowserRouter>
     </React.StrictMode>,
