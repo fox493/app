@@ -55,6 +55,7 @@ const fetchData = async (signer: Nullable<JsonRpcSigner>): Promise<Nullable<Posi
       hasPosition,
       collateralBalance,
       debtBalance,
+      // @ts-ignore
       principalCollateralBalance: userPosition.getPrincipalCollateral(),
     };
   } catch (error) {
